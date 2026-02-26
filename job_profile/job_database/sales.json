@@ -1,0 +1,386 @@
+{
+  "domain": "Sales & Marketing",
+
+  "domain_keywords": [
+    "sales", "marketing", "lead", "conversion", "pipeline",
+    "crm", "campaign", "branding", "growth",
+    "customer acquisition", "business development",
+    "revenue", "targets", "roi"
+  ],
+
+  "negative_domains": [
+    "python", "django", "backend", "frontend", "react",
+    "accounting", "tax", "audit",
+    "hr", "recruitment", "payroll",
+    "legal"
+  ],
+  
+  "roles": {
+
+    "sales_executive": {
+  "title": "Sales Executive",
+  "aliases": ["Sales Officer", "Inside Sales Executive"],
+  "seniority": "entry",
+
+  "education": {
+    "min_level": "bachelor",
+    "preferred_fields": ["business", "marketing", "management"]
+  },
+
+  "experience": {
+    "min_years": 0,
+    "preferred_years": 2
+  },
+
+  "skills": {
+    "critical": [
+      "sales",
+      "lead generation",
+      "customer interaction"
+    ],
+    "core": [
+      "crm",
+      "negotiation",
+      "follow ups"
+    ],
+    "tools": [
+      "excel",
+      "salesforce",
+      "hubspot"
+    ],
+    "optional": [
+      "cold calling",
+      "inside sales"
+    ],
+    "soft": [
+      "communication",
+      "persuasion",
+      "relationship building"
+    ]
+  },
+
+  "discriminators": {
+    "must_have_any": [
+      "sales",
+      "leads",
+      "targets"
+    ],
+    "should_not_have_primary": [
+      "backend",
+      "accounting",
+      "recruitment"
+    ]
+  },
+
+  "keywords": [
+    "revenue",
+    "targets",
+    "customer acquisition",
+    "pipeline"
+  ],
+
+  "career_path": [
+    "senior sales executive",
+    "sales manager",
+    "regional sales head"
+  ]
+},
+
+  "business_development_executive": {
+  "title": "Business Development Executive",
+  "aliases": ["BDE", "Business Development Associate"],
+  "seniority": "mid",
+
+  "experience": {
+    "min_years": 1,
+    "preferred_years": 3
+  },
+
+  "skills": {
+    "critical": [
+      "business development",
+      "client acquisition",
+      "partnerships"
+    ],
+    "core": [
+      "sales strategy",
+      "market research"
+    ],
+    "tools": [
+      "crm",
+      "linkedin sales navigator"
+    ],
+    "optional": [
+      "proposal writing",
+      "account management"
+    ],
+    "soft": [
+      "negotiation",
+      "communication"
+    ]
+  },
+
+  "discriminators": {
+    "must_have_any": [
+      "business development",
+      "client acquisition"
+    ],
+    "should_not_have_primary": [
+      "seo",
+      "content marketing"
+    ]
+  },
+
+  "keywords": [
+    "growth",
+    "partnerships",
+    "enterprise clients"
+  ]
+},
+
+  "digital_marketing_executive": {
+  "title": "Digital Marketing Executive",
+  "aliases": ["Digital Marketer", "Marketing Executive"],
+  "seniority": "entry",
+
+  "experience": {
+    "min_years": 0,
+    "preferred_years": 2
+  },
+
+  "skills": {
+    "critical": [
+      "digital marketing",
+      "campaign management",
+      "social media marketing"
+    ],
+    "core": [
+      "seo",
+      "content marketing",
+      "email marketing"
+    ],
+    "tools": [
+      "google analytics",
+      "meta ads",
+      "google ads"
+    ],
+    "optional": [
+      "performance marketing",
+      "copywriting"
+    ],
+    "soft": [
+      "creativity",
+      "analytical thinking"
+    ]
+  },
+
+  "discriminators": {
+    "must_have_any": [
+      "seo",
+      "digital marketing",
+      "campaign"
+    ],
+    "should_not_have_primary": [
+      "cold calling",
+      "sales targets"
+    ]
+  },
+
+  "keywords": [
+    "traffic",
+    "engagement",
+    "conversion rate"
+  ]
+},
+
+   "seo_specialist": {
+  "title": "SEO Specialist",
+  "aliases": ["SEO Analyst", "Search Engine Optimization Specialist"],
+  "seniority": "mid",
+
+  "experience": {
+    "min_years": 1,
+    "preferred_years": 3
+  },
+
+  "skills": {
+    "critical": [
+      "seo",
+      "on page seo",
+      "keyword research"
+    ],
+    "core": [
+      "technical seo",
+      "link building",
+      "content optimization"
+    ],
+    "tools": [
+      "google search console",
+      "ahrefs",
+      "semrush"
+    ],
+    "optional": [
+      "schema markup",
+      "page speed optimization"
+    ],
+    "soft": [
+      "analytical thinking",
+      "attention to detail"
+    ]
+  },
+
+  "discriminators": {
+    "must_have_any": [
+      "seo",
+      "keyword research"
+    ],
+    "should_not_have_primary": [
+      "cold calling",
+      "sales targets",
+      "backend"
+    ]
+  },
+
+  "keywords": [
+    "organic traffic",
+    "search ranking",
+    "serp",
+    "on page seo"
+  ],
+
+  "career_path": [
+    "senior seo specialist",
+    "seo manager",
+    "growth marketer"
+  ]
+},
+
+
+  "performance_marketer": {
+  "title": "Performance Marketing Specialist",
+  "aliases": ["Paid Media Specialist", "Growth Ads Specialist"],
+  "seniority": "mid",
+
+  "experience": {
+    "min_years": 1,
+    "preferred_years": 3
+  },
+
+  "skills": {
+    "critical": [
+      "performance marketing",
+      "paid ads",
+      "conversion optimization"
+    ],
+    "core": [
+      "google ads",
+      "meta ads",
+      "campaign optimization"
+    ],
+    "tools": [
+      "google analytics",
+      "google ads",
+      "meta ads manager"
+    ],
+    "optional": [
+      "a b testing",
+      "funnel optimization"
+    ],
+    "soft": [
+      "analytical thinking",
+      "roi focus"
+    ]
+  },
+
+  "discriminators": {
+    "must_have_any": [
+      "paid ads",
+      "google ads",
+      "meta ads"
+    ],
+    "should_not_have_primary": [
+      "seo",
+      "cold calling",
+      "backend"
+    ]
+  },
+
+  "keywords": [
+    "roi",
+    "cpa",
+    "conversion rate",
+    "paid campaigns"
+  ],
+
+  "career_path": [
+    "senior performance marketer",
+    "growth marketer",
+    "marketing manager"
+  ]
+},
+
+   "growth_marketer": {
+  "title": "Growth Marketer",
+  "aliases": ["Growth Marketing Manager", "Growth Hacker"],
+  "seniority": "senior",
+
+  "experience": {
+    "min_years": 3,
+    "preferred_years": 5
+  },
+
+  "skills": {
+    "critical": [
+      "growth marketing",
+      "experimentation",
+      "conversion optimization"
+    ],
+    "core": [
+      "seo",
+      "performance marketing",
+      "analytics"
+    ],
+    "tools": [
+      "google analytics",
+      "mixpanel",
+      "hotjar"
+    ],
+    "optional": [
+      "product marketing",
+      "retention strategies"
+    ],
+    "soft": [
+      "strategic thinking",
+      "data driven decision making"
+    ]
+  },
+
+  "discriminators": {
+    "must_have_any": [
+      "experimentation",
+      "growth",
+      "funnels"
+    ],
+    "should_not_have_primary": [
+      "cold calling",
+      "pure sales"
+    ]
+  },
+
+  "keywords": [
+    "funnels",
+    "experiments",
+    "activation",
+    "retention"
+  ],
+
+  "career_path": [
+    "head of growth",
+    "marketing director"
+  ]
+}
+
+
+}
+
+}

@@ -1,0 +1,7 @@
+.venv/
+resume_env/
+.vscode/
+output/
+poppler-25.12.0/
+__pycache__/
+*.log

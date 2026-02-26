@@ -1,0 +1,10 @@
+python
+java
+data structures
+algorithms
+object oriented programming
+git
+rest api
+sql
+debugging
+problem solving

@@ -1,0 +1,397 @@
+{
+  "domain": "Healthcare",
+
+  "domain_keywords": [
+    "healthcare",
+    "hospital",
+    "clinic",
+    "patient care",
+    "medical",
+    "clinical",
+    "nursing",
+    "diagnosis",
+    "treatment",
+    "laboratory",
+    "pharmacy",
+    "health records",
+    "care coordination"
+  ],
+
+  "negative_domains": [
+    "software",
+    "developer",
+    "programming",
+    "python",
+    "react",
+    "backend",
+    "frontend",
+    "sales",
+    "marketing",
+    "accounting",
+    "finance",
+    "legal"
+  ],
+
+  "roles": {
+
+    "staff_nurse": {
+      "title": "Staff Nurse",
+      "aliases": ["Registered Nurse", "Clinical Nurse"],
+      "seniority": "mid",
+
+      "education": {
+        "min_level": "diploma",
+        "preferred_fields": ["nursing", "health sciences"]
+      },
+
+      "experience": {
+        "min_years": 1,
+        "preferred_years": 3
+      },
+
+      "skills": {
+        "critical": [
+          "patient care",
+          "clinical procedures",
+          "vital signs monitoring"
+        ],
+        "core": [
+          "medication administration",
+          "care coordination",
+          "infection control"
+        ],
+        "tools": [
+          "medical equipment",
+          "patient charts"
+        ],
+        "optional": [
+          "icu care",
+          "emergency response"
+        ],
+        "soft": [
+          "empathy",
+          "communication",
+          "attention to detail"
+        ]
+      },
+
+      "seniority_expectation": {
+        "entry": { "min": 0, "max": 1 },
+        "mid":   { "min": 2, "max": 5 },
+        "senior":{ "min": 6, "max": 10 }
+      },
+
+      "discriminators": {
+        "must_have_any": [
+          "nursing",
+          "patient care",
+          "clinical"
+        ],
+        "should_not_have_primary": [
+          "software",
+          "sales",
+          "marketing"
+        ]
+      },
+
+      "keywords": [
+        "ward",
+        "patient monitoring",
+        "clinical care",
+        "medication"
+      ],
+
+      "career_path": [
+        "senior nurse",
+        "nursing supervisor",
+        "head nurse"
+      ]
+    },
+
+    "medical_lab_technician": {
+      "title": "Medical Laboratory Technician",
+      "aliases": ["Lab Technician", "Pathology Technician"],
+      "seniority": "mid",
+
+      "education": {
+        "min_level": "diploma",
+        "preferred_fields": ["medical laboratory technology", "pathology"]
+      },
+
+      "experience": {
+        "min_years": 1,
+        "preferred_years": 3
+      },
+
+      "skills": {
+        "critical": [
+          "laboratory testing",
+          "sample collection",
+          "pathology procedures"
+        ],
+        "core": [
+          "equipment handling",
+          "report documentation",
+          "quality control"
+        ],
+        "tools": [
+          "lab analyzers",
+          "microscope"
+        ],
+        "optional": [
+          "biochemistry",
+          "hematology"
+        ],
+        "soft": [
+          "attention to detail",
+          "accuracy",
+          "record keeping"
+        ]
+      },
+
+      "seniority_expectation": {
+        "entry": { "min": 0, "max": 1 },
+        "mid":   { "min": 2, "max": 5 },
+        "senior":{ "min": 6, "max": 9 }
+      },
+
+      "discriminators": {
+        "must_have_any": [
+          "laboratory",
+          "sample",
+          "testing"
+        ],
+        "should_not_have_primary": [
+          "sales",
+          "frontend",
+          "backend"
+        ]
+      },
+
+      "keywords": [
+        "lab tests",
+        "diagnostics",
+        "pathology",
+        "reports"
+      ],
+
+      "career_path": [
+        "senior lab technician",
+        "lab supervisor",
+        "lab manager"
+      ]
+    },
+
+    "hospital_administrator": {
+      "title": "Hospital Administrator",
+      "aliases": ["Healthcare Administrator", "Hospital Operations Manager"],
+      "seniority": "mid",
+
+      "education": {
+        "min_level": "bachelor",
+        "preferred_fields": ["healthcare management", "hospital administration"]
+      },
+
+      "experience": {
+        "min_years": 2,
+        "preferred_years": 4
+      },
+
+      "skills": {
+        "critical": [
+          "hospital operations",
+          "administration",
+          "compliance"
+        ],
+        "core": [
+          "staff coordination",
+          "process management",
+          "documentation"
+        ],
+        "tools": [
+          "hospital management systems",
+          "ms excel"
+        ],
+        "optional": [
+          "healthcare audits",
+          "insurance coordination"
+        ],
+        "soft": [
+          "leadership",
+          "communication",
+          "organizational skills"
+        ]
+      },
+
+      "seniority_expectation": {
+        "entry": { "min": 0, "max": 1 },
+        "mid":   { "min": 2, "max": 5 },
+        "senior":{ "min": 6, "max": 10 }
+      },
+
+      "discriminators": {
+        "must_have_any": [
+          "hospital administration",
+          "operations",
+          "compliance"
+        ],
+        "should_not_have_primary": [
+          "software development",
+          "marketing",
+          "sales"
+        ]
+      },
+
+      "keywords": [
+        "hospital operations",
+        "patient services",
+        "compliance",
+        "administration"
+      ],
+
+      "career_path": [
+        "senior administrator",
+        "hospital manager",
+        "director of operations"
+      ]
+    },
+
+    "pharmacist": {
+      "title": "Pharmacist",
+      "aliases": ["Clinical Pharmacist"],
+      "seniority": "mid",
+
+      "education": {
+        "min_level": "bachelor",
+        "preferred_fields": ["pharmacy", "pharmaceutical sciences"]
+      },
+
+      "experience": {
+        "min_years": 1,
+        "preferred_years": 3
+      },
+
+      "skills": {
+        "critical": [
+          "medication dispensing",
+          "drug knowledge",
+          "prescription review"
+        ],
+        "core": [
+          "inventory management",
+          "dosage calculation",
+          "patient counseling"
+        ],
+        "tools": [
+          "pharmacy software",
+          "inventory systems"
+        ],
+        "optional": [
+          "clinical pharmacy",
+          "drug interaction analysis"
+        ],
+        "soft": [
+          "accuracy",
+          "communication",
+          "responsibility"
+        ]
+      },
+
+      "seniority_expectation": {
+        "entry": { "min": 0, "max": 1 },
+        "mid":   { "min": 2, "max": 5 },
+        "senior":{ "min": 6, "max": 9 }
+      },
+
+      "discriminators": {
+        "must_have_any": [
+          "pharmacy",
+          "medication",
+          "prescription"
+        ],
+        "should_not_have_primary": [
+          "sales",
+          "marketing",
+          "frontend"
+        ]
+      },
+
+      "keywords": [
+        "drug dispensing",
+        "pharmacy",
+        "medications",
+        "prescriptions"
+      ],
+
+      "career_path": [
+        "senior pharmacist",
+        "pharmacy manager",
+        "chief pharmacist"
+      ]
+    },
+
+    "healthcare_assistant": {
+     "title": "Healthcare Assistant",
+     "aliases": ["Nursing Assistant", "Patient Care Assistant"],
+     "seniority": "entry",
+
+    "education": {
+     "min_level": "certificate",
+     "preferred_fields": ["healthcare assistance", "nursing aide"]
+    },
+
+    "experience": {
+     "min_years": 0,
+     "preferred_years": 1
+    },
+
+    "skills": {
+     "critical": [
+       "patient assistance",
+       "basic care",
+       "support services"
+      ],
+     "core": [
+       "mobility assistance",
+       "hygiene support",
+       "vital signs support"
+      ],
+     "tools": [
+       "clinical equipment"
+      ],
+     "optional": [
+       "ward assistance"
+      ],
+     "soft": [
+       "empathy",
+       "patience",
+       "communication"
+      ]
+    },
+
+    "discriminators": {
+       "must_have_any": [
+         "patient care",
+         "assistance",
+         "support"
+        ],
+       "should_not_have_primary": [
+         "software",
+         "sales",
+         "marketing"
+        ]
+      },
+
+    "keywords": [
+     "patient support",
+     "ward assistance",
+     "basic care"
+    ],
+
+    "career_path": [
+     "staff nurse",
+     "senior healthcare assistant"
+    ]
+   }
+  }
+}

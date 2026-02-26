@@ -1,0 +1,321 @@
+{
+  "domain": "Design",
+
+  "domain_keywords": [
+    "design",
+    "ui",
+    "ux",
+    "user interface",
+    "user experience",
+    "graphic",
+    "visual design",
+    "wireframe",
+    "prototype",
+    "branding",
+    "creative"
+  ],
+
+  "negative_domains": [
+    "backend",
+    "frontend",
+    "react",
+    "javascript",
+    "python",
+    "software",
+    "accounting",
+    "finance",
+    "sales",
+    "marketing",
+    "hr",
+    "recruitment"
+  ],
+
+  "roles": {
+
+    "ui_ux_designer": {
+      "title": "UI/UX Designer",
+      "aliases": ["UX Designer", "Product Designer"],
+      "seniority": "mid",
+
+      "education": {
+        "min_level": "bachelor",
+        "preferred_fields": ["design", "arts", "human computer interaction"]
+      },
+
+      "experience": {
+        "min_years": 1,
+        "preferred_years": 3
+      },
+
+      "skills": {
+        "critical": [
+          "ui design",
+          "ux design",
+          "wireframing",
+          "prototyping"
+        ],
+        "core": [
+          "user research",
+          "usability testing",
+          "design systems"
+        ],
+        "tools": [
+          "figma",
+          "adobe xd",
+          "sketch"
+        ],
+        "optional": [
+          "interaction design",
+          "accessibility",
+          "html css basics"
+        ],
+        "soft": [
+          "problem solving",
+          "communication",
+          "empathy"
+        ]
+      },
+
+      "seniority_expectation": {
+        "entry": { "min": 0, "max": 1 },
+        "mid":   { "min": 2, "max": 5 },
+        "senior":{ "min": 6, "max": 10 }
+      },
+
+      "discriminators": {
+        "must_have_any": [
+          "wireframe",
+          "prototype",
+          "ux",
+          "ui"
+        ],
+        "should_not_have_primary": [
+          "backend",
+          "server",
+          "api",
+          "accounting"
+        ]
+      },
+
+      "keywords": [
+        "user flows",
+        "design systems",
+        "usability"
+      ],
+
+      "career_path": [
+        "senior ui ux designer",
+        "product designer",
+        "design lead"
+      ]
+    },
+
+    "graphic_designer": {
+      "title": "Graphic Designer",
+      "aliases": ["Visual Designer", "Creative Designer"],
+      "seniority": "entry",
+
+      "education": {
+        "min_level": "diploma",
+        "preferred_fields": ["graphic design", "visual arts"]
+      },
+
+      "experience": {
+        "min_years": 0,
+        "preferred_years": 2
+      },
+
+      "skills": {
+        "critical": [
+          "graphic design",
+          "visual design",
+          "branding"
+        ],
+        "core": [
+          "typography",
+          "color theory",
+          "layout design"
+        ],
+        "tools": [
+          "photoshop",
+          "illustrator",
+          "indesign"
+        ],
+        "optional": [
+          "motion graphics",
+          "social media creatives"
+        ],
+        "soft": [
+          "creativity",
+          "attention to detail"
+        ]
+      },
+
+      "seniority_expectation": {
+        "entry": { "min": 0, "max": 2 },
+        "mid":   { "min": 3, "max": 6 }
+      },
+
+      "discriminators": {
+        "must_have_any": [
+          "graphic",
+          "branding",
+          "visual"
+        ],
+        "should_not_have_primary": [
+          "ux research",
+          "backend",
+          "sales"
+        ]
+      },
+
+      "keywords": [
+        "brand identity",
+        "marketing creatives",
+        "visual assets"
+      ],
+
+      "career_path": [
+        "senior graphic designer",
+        "art director",
+        "creative head"
+      ]
+    },
+
+    "product_designer": {
+      "title": "Product Designer",
+      "aliases": ["Design Strategist"],
+      "seniority": "mid",
+
+      "education": {
+        "min_level": "bachelor",
+        "preferred_fields": ["design", "engineering", "arts"]
+      },
+
+      "experience": {
+        "min_years": 2,
+        "preferred_years": 4
+      },
+
+      "skills": {
+        "critical": [
+          "product design",
+          "design thinking",
+          "ux strategy"
+        ],
+        "core": [
+          "stakeholder collaboration",
+          "user journey mapping"
+        ],
+        "tools": [
+          "figma",
+          "miro"
+        ],
+        "optional": [
+          "product management basics",
+          "analytics for designers"
+        ],
+        "soft": [
+          "strategic thinking",
+          "communication",
+          "leadership"
+        ]
+      },
+
+      "seniority_expectation": {
+        "mid":   { "min": 2, "max": 5 },
+        "senior":{ "min": 6, "max": 10 }
+      },
+
+      "discriminators": {
+        "must_have_any": [
+          "product",
+          "design strategy",
+          "ux"
+        ],
+        "should_not_have_primary": [
+          "pure graphic",
+          "accounting",
+          "sales"
+        ]
+      },
+
+      "keywords": [
+        "product vision",
+        "design roadmap",
+        "user centric design"
+      ],
+
+      "career_path": [
+        "senior product designer",
+        "design manager",
+        "head of design"
+      ]
+    },
+
+    "brand_designer": {
+     "title": "Brand Designer",
+     "aliases": ["Visual Brand Designer", "Brand Visual Designer"],
+     "seniority": "mid",
+
+     "education": {
+       "min_level": "diploma",
+       "preferred_fields": ["design", "visual arts", "branding"]
+      },
+
+     "experience": {
+       "min_years": 1,
+       "preferred_years": 3
+      },
+
+     "skills": {
+       "critical": [
+         "branding",
+         "visual identity",
+         "brand guidelines"
+        ],
+       "core": [
+         "logo design",
+         "color systems",
+         "typography"
+        ],
+       "tools": [
+         "adobe illustrator",
+         "adobe photoshop"
+        ],
+       "optional": [
+         "motion branding",
+         "campaign creatives"
+        ],
+       "soft": [
+         "creativity",
+         "attention to detail"
+        ]
+      },
+
+     "discriminators": {
+       "must_have_any": [
+         "branding",
+         "visual identity"
+        ],
+       "should_not_have_primary": [
+         "ux research",
+         "product strategy",
+         "frontend"
+        ]
+      },
+
+     "keywords": [
+       "brand identity",
+       "visual systems",
+       "brand guidelines"
+      ],
+
+     "career_path": [
+       "senior brand designer",
+       "art director",
+       "creative director"
+      ]
+    }
+  }
+}

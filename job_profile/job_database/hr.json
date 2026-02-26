@@ -1,0 +1,306 @@
+{
+  "domain": "Human Resources",
+
+  "domain_keywords": [
+    "human resources", "hr", "recruitment", "talent",
+    "hiring", "onboarding", "payroll",
+    "employee relations", "performance management",
+    "training", "compliance", "policy"
+  ],
+
+  "negative_domains": [
+    "backend", "frontend", "developer", "programming",
+    "accounting", "audit", "tax",
+    "sales", "marketing", "branding",
+    "legal", "litigation"
+  ],
+
+  "roles": {
+
+    "hr_executive": {
+      "title": "HR Executive",
+      "aliases": ["HR Officer", "HR Generalist"],
+      "seniority": "entry",
+
+      "education": {
+        "min_level": "bachelor",
+        "preferred_fields": ["human resources", "management", "psychology"]
+      },
+
+      "experience": {
+        "min_years": 0,
+        "preferred_years": 2
+      },
+
+      "skills": {
+        "critical": [
+          "human resources",
+          "employee relations",
+          "hr policies"
+        ],
+        "core": [
+          "onboarding",
+          "attendance management",
+          "leave management"
+        ],
+        "tools": [
+          "hrms",
+          "excel"
+        ],
+        "optional": [
+          "training coordination",
+          "performance management"
+        ],
+        "soft": [
+          "communication",
+          "conflict resolution",
+          "organizational skills"
+        ]
+      },
+
+      "discriminators": {
+        "must_have_any": [
+          "hr",
+          "human resources",
+          "employee"
+        ],
+        "should_not_have_primary": [
+          "sales",
+          "marketing",
+          "backend",
+          "python"
+        ]
+      },
+
+      "keywords": [
+        "employee engagement",
+        "hr operations",
+        "policy implementation"
+      ],
+
+      "career_path": [
+        "senior hr executive",
+        "hr manager",
+        "hr business partner"
+      ]
+    },
+
+    "talent_acquisition_specialist": {
+      "title": "Talent Acquisition Specialist",
+      "aliases": ["Recruiter", "Technical Recruiter"],
+      "seniority": "mid",
+
+      "education": {
+        "min_level": "bachelor",
+        "preferred_fields": ["human resources", "management"]
+      },
+
+      "experience": {
+        "min_years": 1,
+        "preferred_years": 3
+      },
+
+      "skills": {
+        "critical": [
+          "recruitment",
+          "talent acquisition",
+          "sourcing"
+        ],
+        "core": [
+          "interviewing",
+          "screening",
+          "candidate assessment"
+        ],
+        "tools": [
+          "ats",
+          "linkedin",
+          "job portals"
+        ],
+        "optional": [
+          "employer branding",
+          "campus hiring"
+        ],
+        "soft": [
+          "communication",
+          "negotiation",
+          "stakeholder management"
+        ]
+      },
+
+      "seniority_expectation": {
+        "entry": { "min": 0, "max": 1 },
+        "mid":   { "min": 2, "max": 5 },
+        "senior":{ "min": 6, "max": 10 }
+      },
+
+      "discriminators": {
+        "must_have_any": [
+          "recruitment",
+          "sourcing",
+          "interview"
+        ],
+        "should_not_have_primary": [
+          "accounting",
+          "audit",
+          "frontend",
+          "backend"
+        ]
+      },
+
+      "keywords": [
+        "hiring",
+        "talent pipeline",
+        "interview coordination",
+        "offer management"
+      ],
+
+      "career_path": [
+        "senior recruiter",
+        "talent acquisition manager",
+        "hr business partner"
+      ]
+    },
+
+    "hr_analyst": {
+      "title": "HR Analyst",
+      "aliases": ["People Analyst"],
+      "seniority": "mid",
+
+      "education": {
+        "min_level": "bachelor",
+        "preferred_fields": ["human resources", "statistics", "management"]
+      },
+
+      "experience": {
+        "min_years": 2,
+        "preferred_years": 4
+      },
+
+      "skills": {
+        "critical": [
+          "hr analytics",
+          "data analysis",
+          "reporting"
+        ],
+        "core": [
+          "excel",
+          "dashboarding",
+          "metrics analysis"
+        ],
+        "tools": [
+          "excel",
+          "power bi",
+          "hrms"
+        ],
+        "optional": [
+          "attrition analysis",
+          "workforce planning"
+        ],
+        "soft": [
+          "analytical thinking",
+          "attention to detail"
+        ]
+      },
+
+      "discriminators": {
+        "must_have_any": [
+          "analysis",
+          "reporting",
+          "metrics"
+        ],
+        "should_not_have_primary": [
+          "sales",
+          "marketing",
+          "backend",
+          "frontend"
+        ]
+      },
+
+      "keywords": [
+        "hr metrics",
+        "attrition",
+        "headcount",
+        "people analytics"
+      ],
+
+      "career_path": [
+        "senior hr analyst",
+        "people analytics lead"
+      ]
+    },
+
+    "hr_generalist": {
+      "title": "HR Generalist",
+      "aliases": ["HR Manager", "HR Business Partner"],
+      "seniority": "mid",
+
+      "education": {
+        "min_level": "bachelor",
+        "preferred_fields": ["human resources", "management", "industrial relations"]
+      },
+
+      "experience": {
+        "min_years": 2,
+        "preferred_years": 4
+      },
+
+      "skills": {
+        "critical": [
+          "hr operations",
+          "employee relations",
+          "compliance"
+        ],
+        "core": [
+          "payroll",
+          "performance management",
+          "policy implementation"
+        ],
+        "tools": [
+          "hrms",
+          "excel",
+          "attendance systems"
+        ],
+        "optional": [
+          "labor law basics",
+          "training programs"
+        ],
+        "soft": [
+          "conflict resolution",
+          "communication",
+          "confidentiality"
+        ]
+      },
+
+      "seniority_expectation": {
+        "mid":    { "min": 2, "max": 5 },
+        "senior": { "min": 6, "max": 9 }
+      },
+
+      "discriminators": {
+        "must_have_any": [
+          "employee relations",
+          "hr operations",
+          "compliance"
+        ],
+        "should_not_have_primary": [
+          "cold calling",
+          "sales targets",
+          "programming"
+        ]
+      },
+
+      "keywords": [
+        "grievance handling",
+        "policies",
+        "appraisals",
+        "compliance"
+      ],
+
+      "career_path": [
+        "senior hr manager",
+        "hr business partner"
+      ]
+    }
+
+  }
+}

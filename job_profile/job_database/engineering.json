@@ -1,0 +1,407 @@
+{
+  "domain": "Engineering",
+
+  "domain_keywords": [
+    "engineering",
+    "manufacturing",
+    "production",
+    "plant",
+    "machinery",
+    "quality",
+    "maintenance",
+    "design",
+    "process",
+    "industrial",
+    "mechanical",
+    "electrical",
+    "civil",
+    "automation",
+    "safety"
+  ],
+
+  "negative_domains": [
+    "software",
+    "developer",
+    "programming",
+    "python",
+    "javascript",
+    "react",
+    "backend",
+    "frontend",
+    "data science",
+    "digital marketing",
+    "accounting",
+    "finance",
+    "hr"
+  ],
+
+  "roles": {
+
+    "mechanical_engineer": {
+      "title": "Mechanical Engineer",
+      "aliases": ["Maintenance Engineer", "Production Engineer"],
+      "seniority": "mid",
+
+      "education": {
+        "min_level": "bachelor",
+        "preferred_fields": ["mechanical engineering", "production engineering"]
+      },
+
+      "experience": {
+        "min_years": 1,
+        "preferred_years": 3
+      },
+
+      "skills": {
+        "critical": [
+          "mechanical systems",
+          "maintenance",
+          "manufacturing processes"
+        ],
+        "core": [
+          "machine operation",
+          "troubleshooting",
+          "preventive maintenance"
+        ],
+        "tools": [
+          "autocad",
+          "solidworks"
+        ],
+        "optional": [
+          "cnc machines",
+          "hydraulics",
+          "pneumatics"
+        ],
+        "soft": [
+          "problem solving",
+          "attention to detail",
+          "safety awareness"
+        ]
+      },
+
+      "seniority_expectation": {
+        "entry": { "min": 0, "max": 1 },
+        "mid":   { "min": 2, "max": 5 },
+        "senior":{ "min": 6, "max": 10 }
+      },
+
+      "discriminators": {
+        "must_have_any": [
+          "mechanical",
+          "maintenance",
+          "manufacturing"
+        ],
+        "should_not_have_primary": [
+          "software",
+          "programming",
+          "react",
+          "python"
+        ]
+      },
+
+      "keywords": [
+        "plant maintenance",
+        "production line",
+        "machine breakdown",
+        "manufacturing"
+      ],
+
+      "career_path": [
+        "senior mechanical engineer",
+        "maintenance manager",
+        "plant head"
+      ]
+    },
+
+    "electrical_engineer": {
+      "title": "Electrical Engineer",
+      "aliases": ["Electrical Maintenance Engineer"],
+      "seniority": "mid",
+
+      "education": {
+        "min_level": "bachelor",
+        "preferred_fields": ["electrical engineering", "electronics"]
+      },
+
+      "experience": {
+        "min_years": 1,
+        "preferred_years": 3
+      },
+
+      "skills": {
+        "critical": [
+          "electrical systems",
+          "power distribution",
+          "maintenance"
+        ],
+        "core": [
+          "wiring",
+          "panel maintenance",
+          "troubleshooting"
+        ],
+        "tools": [
+          "electrical drawings",
+          "multimeter"
+        ],
+        "optional": [
+          "plc basics",
+          "scada",
+          "automation"
+        ],
+        "soft": [
+          "safety compliance",
+          "problem solving",
+          "attention to detail"
+        ]
+      },
+
+      "seniority_expectation": {
+        "entry": { "min": 0, "max": 1 },
+        "mid":   { "min": 2, "max": 5 },
+        "senior":{ "min": 6, "max": 10 }
+      },
+
+      "discriminators": {
+        "must_have_any": [
+          "electrical",
+          "power",
+          "maintenance"
+        ],
+        "should_not_have_primary": [
+          "software",
+          "frontend",
+          "backend",
+          "digital marketing"
+        ]
+      },
+
+      "keywords": [
+        "electrical maintenance",
+        "power systems",
+        "panel wiring",
+        "safety"
+      ],
+
+      "career_path": [
+        "senior electrical engineer",
+        "electrical supervisor",
+        "plant engineer"
+      ]
+    },
+
+    "civil_engineer": {
+      "title": "Civil Engineer",
+      "aliases": ["Site Engineer", "Project Engineer"],
+      "seniority": "mid",
+
+      "education": {
+        "min_level": "bachelor",
+        "preferred_fields": ["civil engineering"]
+      },
+
+      "experience": {
+        "min_years": 1,
+        "preferred_years": 3
+      },
+
+      "skills": {
+        "critical": [
+          "construction",
+          "site supervision",
+          "structural work"
+        ],
+        "core": [
+          "quantity estimation",
+          "project coordination",
+          "quality control"
+        ],
+        "tools": [
+          "autocad",
+          "ms excel"
+        ],
+        "optional": [
+          "billing",
+          "contracts",
+          "safety audits"
+        ],
+        "soft": [
+          "coordination",
+          "documentation",
+          "time management"
+        ]
+      },
+
+      "seniority_expectation": {
+        "entry": { "min": 0, "max": 1 },
+        "mid":   { "min": 2, "max": 5 },
+        "senior":{ "min": 6, "max": 10 }
+      },
+
+      "discriminators": {
+        "must_have_any": [
+          "construction",
+          "site",
+          "civil"
+        ],
+        "should_not_have_primary": [
+          "software",
+          "programming",
+          "seo"
+        ]
+      },
+
+      "keywords": [
+        "site execution",
+        "construction supervision",
+        "quality checks",
+        "contractors"
+      ],
+
+      "career_path": [
+        "senior civil engineer",
+        "project manager",
+        "construction manager"
+      ]
+    },
+
+    "quality_engineer": {
+      "title": "Quality Engineer",
+      "aliases": ["Quality Assurance Engineer", "QC Engineer"],
+      "seniority": "mid",
+
+      "education": {
+        "min_level": "bachelor",
+        "preferred_fields": ["engineering", "quality management"]
+      },
+
+      "experience": {
+        "min_years": 1,
+        "preferred_years": 3
+      },
+
+      "skills": {
+        "critical": [
+          "quality assurance",
+          "inspection",
+          "process compliance"
+        ],
+        "core": [
+          "quality audits",
+          "documentation",
+          "root cause analysis"
+        ],
+        "tools": [
+          "quality checklists",
+          "iso standards"
+        ],
+        "optional": [
+          "six sigma",
+          "lean manufacturing"
+        ],
+        "soft": [
+          "attention to detail",
+          "analytical thinking",
+          "compliance mindset"
+        ]
+      },
+
+      "seniority_expectation": {
+        "entry": { "min": 0, "max": 1 },
+        "mid":   { "min": 2, "max": 5 },
+        "senior":{ "min": 6, "max": 9 }
+      },
+
+      "discriminators": {
+        "must_have_any": [
+          "quality",
+          "inspection",
+          "compliance"
+        ],
+        "should_not_have_primary": [
+          "sales",
+          "software",
+          "frontend"
+        ]
+      },
+
+      "keywords": [
+        "quality checks",
+        "process compliance",
+        "audits",
+        "defect reduction"
+      ],
+
+      "career_path": [
+        "senior quality engineer",
+        "quality manager",
+        "head of quality"
+      ]
+    },
+    
+    "automation_engineer": {
+     "title": "Automation Engineer",
+     "aliases": ["Instrumentation Engineer", "PLC Engineer"],
+     "seniority": "mid",
+
+     "education": {
+       "min_level": "bachelor",
+       "preferred_fields": ["instrumentation engineering", "electrical engineering"]
+      },
+
+     "experience": {
+       "min_years": 1,
+       "preferred_years": 3
+     },
+
+     "skills": {
+       "critical": [
+         "automation",
+         "plc",
+         "instrumentation"
+        ],
+       "core": [
+         "scada",
+         "control systems",
+         "panel wiring"
+        ],
+       "tools": [
+         "plc programming",
+         "hmi"
+        ],
+       "optional": [
+         "dcs",
+         "process automation"
+        ],
+       "soft": [
+         "problem solving",
+         "safety awareness"
+        ]
+      },
+
+     "discriminators": {
+       "must_have_any": [
+         "plc",
+         "automation",
+         "instrumentation"
+        ],
+       "should_not_have_primary": [
+         "software development",
+         "frontend",
+         "backend"
+        ]
+      },
+
+     "keywords": [
+       "plc programming",
+       "scada",
+       "control systems"
+      ],
+
+     "career_path": [
+       "senior automation engineer",
+       "controls lead",
+       "plant automation manager"
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+python
+sql
+pandas
+numpy
+data visualization
+statistics
+excel
+power bi
+tableau
+business analysis

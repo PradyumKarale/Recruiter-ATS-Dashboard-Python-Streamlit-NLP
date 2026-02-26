@@ -1,0 +1,226 @@
+{
+  "domain": "Technology",
+
+  "domain_keywords": [
+    "software", "developer", "programming", "web", "backend", "frontend",
+    "api", "cloud", "system", "application", "engineering"
+  ],
+
+  "negative_domains": [
+    "finance", "accounting", "tax", "audit",
+    "sales", "marketing",
+    "legal", "law",
+    "human resources", "hr"
+  ],
+
+  "roles": {
+
+    "full_stack_developer": {
+     "title": "Full Stack Developer",
+     "aliases": [
+       "Full-Stack Engineer",
+       "Software Engineer (Full Stack)"
+      ],
+
+      "seniority": "mid",
+
+      "education": {
+       "min_level": "bachelor",
+       "preferred_fields": [
+        "computer science",
+        "software engineering",
+        "information technology"
+       ]
+      },
+      "experience": {
+       "min_years": 2,
+       "preferred_years": 3
+      },
+
+      "skills": {
+       "critical": [
+         "javascript",
+         "python",
+         "rest api"
+        ],
+
+      "core": [
+       "react",
+       "django",
+       "sql"
+      ],
+
+      "tools": [
+       "git",
+       "docker"
+      ],
+
+      "optional": [
+       "nodejs",
+       "authentication",
+       "postgresql",
+       "typescript"
+      ],
+
+      "soft": [
+       "problem solving",
+       "communication"
+      ]
+    },
+
+     "discriminators": {
+       "must_have_any": [
+         "full stack",
+         "frontend",
+         "backend"
+        ],
+
+       "must_have_both": [
+         ["javascript", "react"],
+         ["python", "django"]
+        ],
+
+       "should_not_have_primary": [
+         "only frontend",
+         "only backend"
+        ]
+      },
+
+      "seniority_expectation": {
+       "mid": { "min": 2, "max": 5 },
+       "senior": { "min": 6 }
+      },
+
+    "keywords": [
+     "full stack",
+     "end to end",
+     "frontend and backend",
+     "api integration"
+    ],
+
+    "career_path": [
+     "senior full stack developer",
+     "tech lead",
+     "engineering manager"
+    ]
+},
+
+
+    "web_developer": {
+      "title": "Web Developer",
+      "aliases": ["Frontend Developer", "Full Stack Developer"],
+      "seniority": "entry",
+
+      "education": {
+        "min_level": "bachelor",
+        "preferred_fields": ["computer science", "it", "software"]
+      },
+
+      "experience": {
+        "min_years": 0,
+        "preferred_years": 1
+      },
+
+      "skills": {
+       "critical": ["html", "css", "javascript"],
+       "core": ["react"],
+       "tools": ["git", "github", "npm"],
+       "optional": [
+       "nodejs",
+       "api integration",
+       "typescript",
+       "nextjs",
+       "seo"
+       ],
+       "soft": ["communication", "problem solving"]
+     },
+
+      "discriminators": {
+       "must_have_any": [
+       "html",
+       "css",
+       "javascript"
+      ],
+      "should_not_have_primary": [
+       "database",
+       "authentication",
+       "server-side"
+      ]
+      },
+      "flattened_skills": [
+        "html", "css", "javascript",
+        "react", "nodejs", "api integration",
+        "git", "github", "npm",
+        "typescript", "nextjs", "seo",
+        "communication", "problem solving"
+      ],
+
+      "keywords": [
+        "frontend", "backend", "web apps",
+        "rest api", "responsive design"
+      ],
+
+      "seniority_hints": {
+        "entry": ["intern", "fresher", "junior"],
+        "mid": ["2+ years", "professional experience"],
+        "senior": ["lead", "architecture", "scalable systems"]
+      },
+
+      "career_path": [
+        "senior web developer",
+        "tech lead",
+        "engineering manager"
+      ]
+    },
+    "backend_developer": {
+     "title": "Backend Developer",
+     "aliases": ["Python Developer", "API Developer"],
+     "seniority": "mid",
+
+     "education": {
+       "min_level": "bachelor",
+       "preferred_fields": ["computer science", "software engineering"]
+      },
+
+     "experience": {
+       "min_years": 2,
+       "preferred_years": 3
+      },
+
+     "skills": {
+       "critical": ["python", "django", "rest api"],
+       "core": ["sql", "postgresql", "authentication"],
+       "tools": ["git", "docker", "linux"],
+       "optional": ["fastapi", "redis", "celery"],
+       "soft": ["problem solving", "communication"]
+      },
+
+     "seniority_expectation": {
+       "entry": { "min": 0, "max": 1 },
+       "mid":   { "min": 2, "max": 5 },
+       "senior":{ "min": 6, "max": 9 },
+       "lead":  { "min": 10 }
+      },
+
+      "discriminators": {
+        "must_have_any": [
+          "rest api",
+          "database",
+          "authentication"
+        ],
+        "should_not_have_primary": [
+         "html",
+         "css",
+         "ui design",
+         "responsive design"
+        ]
+      },
+
+
+     "keywords": ["backend", "api", "server-side"],
+     "career_path": ["senior backend developer", "tech lead"]
+    }
+
+
+  }
+}

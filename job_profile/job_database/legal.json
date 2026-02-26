@@ -1,0 +1,399 @@
+{
+  "domain": "Legal",
+
+  "domain_keywords": [
+    "law",
+    "legal",
+    "litigation",
+    "compliance",
+    "contracts",
+    "court",
+    "advocate",
+    "legal drafting",
+    "case law",
+    "statutory",
+    "regulatory",
+    "legal advisory"
+  ],
+
+  "negative_domains": [
+    "software",
+    "developer",
+    "programming",
+    "python",
+    "react",
+    "backend",
+    "frontend",
+    "sales",
+    "marketing",
+    "accounting",
+    "finance",
+    "hr",
+    "recruitment"
+  ],
+
+  "roles": {
+
+    "legal_associate": {
+      "title": "Legal Associate",
+      "aliases": ["Junior Lawyer", "Associate Advocate"],
+      "seniority": "entry",
+
+      "education": {
+        "min_level": "bachelor",
+        "preferred_fields": ["law", "llb"]
+      },
+
+      "experience": {
+        "min_years": 0,
+        "preferred_years": 2
+      },
+
+      "skills": {
+        "critical": [
+          "legal research",
+          "case law analysis",
+          "drafting"
+        ],
+        "core": [
+          "legal documentation",
+          "court procedures",
+          "client interaction"
+        ],
+        "tools": [
+          "legal databases",
+          "ms word"
+        ],
+        "optional": [
+          "contract review",
+          "compliance support"
+        ],
+        "soft": [
+          "analytical thinking",
+          "attention to detail",
+          "communication"
+        ]
+      },
+
+      "seniority_expectation": {
+        "entry": { "min": 0, "max": 1 },
+        "mid":   { "min": 2, "max": 4 },
+        "senior":{ "min": 5, "max": 8 }
+      },
+
+      "discriminators": {
+        "must_have_any": [
+          "legal",
+          "law",
+          "drafting",
+          "case law"
+        ],
+        "should_not_have_primary": [
+          "accounting",
+          "sales",
+          "marketing",
+          "software"
+        ]
+      },
+
+      "keywords": [
+        "legal drafting",
+        "case preparation",
+        "court filings",
+        "legal research"
+      ],
+
+      "career_path": [
+        "senior associate",
+        "advocate",
+        "legal manager"
+      ]
+    },
+
+    "advocate_litigation": {
+      "title": "Advocate (Litigation)",
+      "aliases": ["Litigation Lawyer", "Court Advocate"],
+      "seniority": "mid",
+
+      "education": {
+        "min_level": "bachelor",
+        "preferred_fields": ["law", "llb"]
+      },
+
+      "experience": {
+        "min_years": 2,
+        "preferred_years": 5
+      },
+
+      "skills": {
+        "critical": [
+          "litigation",
+          "court proceedings",
+          "legal arguments"
+        ],
+        "core": [
+          "case strategy",
+          "pleadings",
+          "client representation"
+        ],
+        "tools": [
+          "court filing systems",
+          "legal research tools"
+        ],
+        "optional": [
+          "cross examination",
+          "appeals"
+        ],
+        "soft": [
+          "public speaking",
+          "persuasion",
+          "confidence"
+        ]
+      },
+
+      "seniority_expectation": {
+        "entry": { "min": 0, "max": 1 },
+        "mid":   { "min": 2, "max": 5 },
+        "senior":{ "min": 6, "max": 12 }
+      },
+
+      "discriminators": {
+        "must_have_any": [
+          "court",
+          "litigation",
+          "pleadings"
+        ],
+        "should_not_have_primary": [
+          "contracts",
+          "hr",
+          "finance"
+        ]
+      },
+
+      "keywords": [
+        "court hearings",
+        "litigation",
+        "pleadings",
+        "legal representation"
+      ],
+
+      "career_path": [
+        "senior advocate",
+        "legal counsel",
+        "partner"
+      ]
+    },
+
+    "corporate_legal_counsel": {
+      "title": "Corporate Legal Counsel",
+      "aliases": ["In-House Counsel", "Legal Advisor"],
+      "seniority": "mid",
+
+      "education": {
+        "min_level": "bachelor",
+        "preferred_fields": ["law", "corporate law"]
+      },
+
+      "experience": {
+        "min_years": 3,
+        "preferred_years": 5
+      },
+
+      "skills": {
+        "critical": [
+          "contract drafting",
+          "compliance",
+          "corporate law"
+        ],
+        "core": [
+          "risk assessment",
+          "regulatory advisory",
+          "policy drafting"
+        ],
+        "tools": [
+          "contract management systems",
+          "ms excel"
+        ],
+        "optional": [
+          "mergers and acquisitions",
+          "intellectual property"
+        ],
+        "soft": [
+          "business communication",
+          "judgment",
+          "stakeholder management"
+        ]
+      },
+
+      "seniority_expectation": {
+        "entry": { "min": 0, "max": 2 },
+        "mid":   { "min": 3, "max": 6 },
+        "senior":{ "min": 7, "max": 12 }
+      },
+
+      "discriminators": {
+        "must_have_any": [
+          "contracts",
+          "compliance",
+          "corporate"
+        ],
+        "should_not_have_primary": [
+          "litigation",
+          "court appearances"
+        ]
+      },
+
+      "keywords": [
+        "corporate contracts",
+        "regulatory compliance",
+        "legal advisory",
+        "risk mitigation"
+      ],
+
+      "career_path": [
+        "senior legal counsel",
+        "head of legal",
+        "general counsel"
+      ]
+    },
+
+    "legal_compliance_officer": {
+      "title": "Legal Compliance Officer",
+      "aliases": ["Compliance Manager", "Regulatory Officer"],
+      "seniority": "mid",
+
+      "education": {
+        "min_level": "bachelor",
+        "preferred_fields": ["law", "compliance", "regulatory studies"]
+      },
+
+      "experience": {
+        "min_years": 2,
+        "preferred_years": 4
+      },
+
+      "skills": {
+        "critical": [
+          "regulatory compliance",
+          "policy enforcement",
+          "risk management"
+        ],
+        "core": [
+          "internal audits",
+          "documentation",
+          "compliance reporting"
+        ],
+        "tools": [
+          "compliance tracking systems",
+          "excel"
+        ],
+        "optional": [
+          "data protection",
+          "corporate governance"
+        ],
+        "soft": [
+          "attention to detail",
+          "integrity",
+          "communication"
+        ]
+      },
+
+      "seniority_expectation": {
+        "entry": { "min": 0, "max": 1 },
+        "mid":   { "min": 2, "max": 5 },
+        "senior":{ "min": 6, "max": 10 }
+      },
+
+      "discriminators": {
+        "must_have_any": [
+          "compliance",
+          "regulatory",
+          "policy"
+        ],
+        "should_not_have_primary": [
+          "sales",
+          "marketing",
+          "software"
+        ]
+      },
+
+      "keywords": [
+        "regulatory compliance",
+        "audits",
+        "risk controls",
+        "policies"
+      ],
+
+      "career_path": [
+        "senior compliance officer",
+        "compliance head",
+        "chief compliance officer"
+      ]
+    },
+
+    "legal_assistant": {
+     "title": "Legal Assistant",
+     "aliases": ["Legal Secretary", "Law Assistant"],
+     "seniority": "entry",
+
+     "education": {
+       "min_level": "diploma",
+       "preferred_fields": ["law", "legal studies"]
+      },
+
+     "experience": {
+       "min_years": 0,
+       "preferred_years": 2
+      },
+
+     "skills": {
+       "critical": [
+         "legal documentation",
+         "case filing",
+         "administrative support"
+        ],
+       "core": [
+         "court filings",
+         "document management",
+         "scheduling"
+        ],
+       "tools": [
+         "word",
+         "legal database"
+        ],
+       "optional": [
+         "client coordination"
+        ],
+       "soft": [
+         "organization",
+         "attention to detail",
+         "communication"
+        ]
+      },
+
+     "discriminators": {
+       "must_have_any": [
+         "legal",
+         "documentation",
+         "filing"
+        ],
+       "should_not_have_primary": [
+         "litigation",
+         "contract drafting",
+         "compliance leadership"
+        ]
+      },
+
+     "keywords": [
+       "case filing",
+       "legal documents",
+       "administrative legal work"
+      ],
+
+     "career_path": [
+       "legal associate",
+       "senior legal assistant"
+      ]
+    }
+  }
+}

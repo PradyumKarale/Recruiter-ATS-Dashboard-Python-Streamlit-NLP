@@ -1,0 +1,323 @@
+{
+  "domain": "Education",
+
+  "domain_keywords": [
+    "education",
+    "teaching",
+    "teacher",
+    "lecturer",
+    "faculty",
+    "curriculum",
+    "lesson planning",
+    "assessment",
+    "academic",
+    "classroom",
+    "student learning",
+    "training"
+  ],
+
+  "negative_domains": [
+    "software",
+    "developer",
+    "programming",
+    "python",
+    "react",
+    "backend",
+    "frontend",
+    "sales",
+    "marketing",
+    "accounting",
+    "finance",
+    "legal",
+    "recruitment"
+  ],
+
+  "roles": {
+
+    "school_teacher": {
+      "title": "School Teacher",
+      "aliases": ["Primary Teacher", "Secondary Teacher"],
+      "seniority": "entry",
+
+      "education": {
+        "min_level": "bachelor",
+        "preferred_fields": ["education", "arts", "science"]
+      },
+
+      "experience": {
+        "min_years": 0,
+        "preferred_years": 2
+      },
+
+      "skills": {
+        "critical": [
+          "teaching",
+          "lesson planning",
+          "classroom management"
+        ],
+        "core": [
+          "student assessment",
+          "curriculum delivery",
+          "subject knowledge"
+        ],
+        "tools": [
+          "smart board",
+          "ms powerpoint",
+          "learning materials"
+        ],
+        "optional": [
+          "online teaching",
+          "activity based learning"
+        ],
+        "soft": [
+          "communication",
+          "patience",
+          "empathy"
+        ]
+      },
+
+      "seniority_expectation": {
+        "entry": { "min": 0, "max": 2 },
+        "mid":   { "min": 3, "max": 6 },
+        "senior":{ "min": 7, "max": 12 }
+      },
+
+      "discriminators": {
+        "must_have_any": [
+          "teaching",
+          "classroom",
+          "lesson"
+        ],
+        "should_not_have_primary": [
+          "sales",
+          "marketing",
+          "software",
+          "accounting"
+        ]
+      },
+
+      "keywords": [
+        "lesson planning",
+        "student assessment",
+        "classroom teaching"
+      ],
+
+      "career_path": [
+        "senior teacher",
+        "head of department",
+        "school coordinator"
+      ]
+    },
+
+    "college_lecturer": {
+      "title": "College Lecturer",
+      "aliases": ["Assistant Professor", "Faculty Member"],
+      "seniority": "mid",
+
+      "education": {
+        "min_level": "master",
+        "preferred_fields": ["education", "arts", "science", "commerce"]
+      },
+
+      "experience": {
+        "min_years": 2,
+        "preferred_years": 5
+      },
+
+      "skills": {
+        "critical": [
+          "subject expertise",
+          "lecture delivery",
+          "academic assessment"
+        ],
+        "core": [
+          "curriculum design",
+          "student mentoring",
+          "exam evaluation"
+        ],
+        "tools": [
+          "lms",
+          "presentation tools"
+        ],
+        "optional": [
+          "research guidance",
+          "seminar coordination"
+        ],
+        "soft": [
+          "communication",
+          "analytical thinking",
+          "presentation"
+        ]
+      },
+
+      "seniority_expectation": {
+        "entry": { "min": 0, "max": 2 },
+        "mid":   { "min": 3, "max": 6 },
+        "senior":{ "min": 7, "max": 15 }
+      },
+
+      "discriminators": {
+        "must_have_any": [
+          "lecturer",
+          "faculty",
+          "teaching"
+        ],
+        "should_not_have_primary": [
+          "sales",
+          "crm",
+          "software development"
+        ]
+      },
+
+      "keywords": [
+        "higher education",
+        "lectures",
+        "academic evaluation"
+      ],
+
+      "career_path": [
+        "associate professor",
+        "professor",
+        "academic dean"
+      ]
+    },
+
+    "academic_coordinator": {
+      "title": "Academic Coordinator",
+      "aliases": ["Education Coordinator", "Curriculum Coordinator"],
+      "seniority": "mid",
+
+      "education": {
+        "min_level": "bachelor",
+        "preferred_fields": ["education", "management"]
+      },
+
+      "experience": {
+        "min_years": 3,
+        "preferred_years": 5
+      },
+
+      "skills": {
+        "critical": [
+          "academic planning",
+          "curriculum coordination",
+          "faculty management"
+        ],
+        "core": [
+          "student performance tracking",
+          "schedule planning",
+          "academic compliance"
+        ],
+        "tools": [
+          "excel",
+          "lms"
+        ],
+        "optional": [
+          "training coordination",
+          "quality audits"
+        ],
+        "soft": [
+          "organization",
+          "communication",
+          "leadership"
+        ]
+      },
+
+      "seniority_expectation": {
+        "mid":   { "min": 3, "max": 6 },
+        "senior":{ "min": 7, "max": 12 }
+      },
+
+      "discriminators": {
+        "must_have_any": [
+          "academic",
+          "curriculum",
+          "coordination"
+        ],
+        "should_not_have_primary": [
+          "sales",
+          "marketing",
+          "recruitment"
+        ]
+      },
+
+      "keywords": [
+        "academic planning",
+        "faculty coordination",
+        "curriculum execution"
+      ],
+
+      "career_path": [
+        "senior coordinator",
+        "academic head",
+        "principal"
+      ]
+    },
+
+    "online_educator": {
+      "title": "Online Educator",
+      "aliases": ["E-Learning Instructor", "Online Trainer"],
+      "seniority": "entry",
+
+      "education": {
+        "min_level": "bachelor",
+        "preferred_fields": ["education", "subject specialization"]
+      },
+
+      "experience": {
+        "min_years": 0,
+        "preferred_years": 2
+      },
+
+      "skills": {
+        "critical": [
+          "online teaching",
+          "content delivery",
+          "student engagement"
+        ],
+        "core": [
+          "video lectures",
+          "assessment design"
+        ],
+        "tools": [
+          "zoom",
+          "google classroom",
+          "lms"
+        ],
+        "optional": [
+          "course creation",
+          "edtech tools"
+        ],
+        "soft": [
+          "communication",
+          "adaptability",
+          "creativity"
+        ]
+      },
+
+      "discriminators": {
+        "must_have_any": [
+          "online teaching",
+          "e learning",
+          "virtual classroom"
+        ],
+        "should_not_have_primary": [
+          "sales",
+          "cold calling"
+        ]
+      },
+
+      "keywords": [
+        "online classes",
+        "virtual learning",
+        "digital education"
+      ],
+
+      "career_path": [
+        "senior educator",
+        "course lead",
+        "academic content manager"
+      ]
+    }
+  }
+}

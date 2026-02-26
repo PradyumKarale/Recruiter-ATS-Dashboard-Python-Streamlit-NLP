@@ -1,0 +1,180 @@
+{
+  "domain": "Finance",
+
+  "domain_keywords": [
+    "finance", "financial", "accounting", "audit", "tax",
+    "budget", "forecast", "investment", "valuation",
+    "risk", "compliance", "balance sheet",
+    "profit", "loss", "p&l", "cash flow"
+  ],
+
+  "negative_domains": [
+    "software", "developer", "programming", "backend", "frontend",
+    "javascript", "python", "react", "node",
+    "marketing", "sales", "branding",
+    "legal", "litigation", "hr"
+  ],
+
+  "roles": {
+
+    "accountant": {
+     "title": "Accountant",
+     "aliases": ["Junior Accountant", "Senior Accountant"],
+     "seniority": "mid",
+
+    "education": {
+     "min_level": "bachelor",
+     "preferred_fields": ["accounting", "finance", "commerce"]
+    },
+
+    "experience": {
+     "min_years": 1,
+     "preferred_years": 3
+    },
+
+    "skills": {
+     "critical": [
+       "accounting",
+       "financial statements",
+       "taxation",
+       "audit"
+      ],
+      "core": [
+       "general ledger",
+       "accounts payable",
+       "accounts receivable"
+      ],
+      "tools": [
+       "tally",
+       "quickbooks",
+       "excel"
+      ],
+      "optional": [
+       "gst",
+       "ifrs",
+       "sap fico"
+      ],
+      "soft": [
+       "attention to detail",
+       "compliance",
+       "time management"
+      ]
+    },
+
+    "seniority_expectation": {
+     "entry": { "min": 0, "max": 1 },
+     "mid":   { "min": 2, "max": 5 },
+     "senior":{ "min": 6, "max": 10 }
+   },
+
+    "discriminators": {
+     "must_have_any": [
+       "accounting",
+       "financial statements",
+       "tax",
+       "audit"
+      ],
+      "should_not_have_primary": [
+       "forecasting",
+       "financial modeling",
+       "react",
+       "backend",
+       "python"
+      ]
+    },
+
+    "keywords": [
+     "balance sheet",
+     "profit and loss",
+     "gst filing",
+     "compliance",
+     "statutory audit"
+    ],
+
+    "career_path": [
+     "senior accountant",
+     "finance controller",
+     "chief accountant"
+   ]
+  },
+
+
+    "financial_analyst": {
+     "title": "Financial Analyst",
+     "aliases": ["Business Analyst - Finance", "FP&A Analyst"],
+     "seniority": "mid",
+
+    "education": {
+     "min_level": "bachelor",
+     "preferred_fields": ["finance", "accounting", "economics"]
+    },
+
+    "experience": {
+     "min_years": 2,
+     "preferred_years": 3
+    },
+
+    "skills": {
+     "critical": [
+       "financial analysis",
+       "financial reporting",
+       "budgeting",
+       "forecasting"
+      ],
+      "core": [
+       "excel",
+       "financial modeling",
+       "variance analysis"
+      ],
+      "tools": [
+       "excel",
+       "power bi",
+       "sap"
+      ],
+      "optional": [
+       "sql",
+       "tableau",
+       "python for finance"
+      ],
+      "soft": [
+       "analytical thinking",
+       "attention to detail",
+       "communication"
+      ]
+    },
+
+    "seniority_expectation": {
+     "entry": { "min": 0, "max": 1 },
+     "mid":   { "min": 2, "max": 5 },
+     "senior":{ "min": 6, "max": 9 }
+    },
+
+    "discriminators": {
+     "must_have_any": [
+       "financial analysis",
+       "budgeting",
+       "forecasting"
+      ],
+     "should_not_have_primary": [
+       "frontend",
+       "backend",
+       "react",
+       "ui design"
+      ]
+    },
+
+     "keywords": [
+       "p&l",
+       "cash flow",
+       "variance",
+       "financial statements",
+       "cost analysis"
+     ],
+     "career_path": [
+       "senior financial analyst",
+      "finance manager",
+       "fp&a lead"
+     ]
+   }
+  }
+}

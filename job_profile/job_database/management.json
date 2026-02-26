@@ -1,0 +1,328 @@
+{
+  "domain": "Management",
+
+  "domain_keywords": [
+    "management",
+    "manager",
+    "operations",
+    "strategy",
+    "planning",
+    "execution",
+    "leadership",
+    "business operations",
+    "process improvement",
+    "stakeholder management",
+    "delivery",
+    "coordination",
+    "governance"
+  ],
+
+  "negative_domains": [
+    "programming",
+    "developer",
+    "python",
+    "react",
+    "backend",
+    "frontend",
+    "seo",
+    "digital marketing",
+    "accounting",
+    "tax",
+    "audit",
+    "recruitment"
+  ],
+
+  "roles": {
+
+    "operations_executive": {
+      "title": "Operations Executive",
+      "aliases": ["Operations Coordinator", "Business Operations Executive"],
+      "seniority": "entry",
+
+      "education": {
+        "min_level": "bachelor",
+        "preferred_fields": ["management", "business administration", "operations"]
+      },
+
+      "experience": {
+        "min_years": 0,
+        "preferred_years": 2
+      },
+
+      "skills": {
+        "critical": [
+          "operations coordination",
+          "process tracking",
+          "reporting"
+        ],
+        "core": [
+          "documentation",
+          "vendor coordination",
+          "task execution"
+        ],
+        "tools": [
+          "excel",
+          "google sheets"
+        ],
+        "optional": [
+          "basic analytics",
+          "process improvement"
+        ],
+        "soft": [
+          "communication",
+          "time management",
+          "organization"
+        ]
+      },
+
+      "seniority_expectation": {
+        "entry": { "min": 0, "max": 2 },
+        "mid":   { "min": 3, "max": 5 }
+      },
+
+      "discriminators": {
+        "must_have_any": [
+          "operations",
+          "coordination",
+          "process"
+        ],
+        "should_not_have_primary": [
+          "sales",
+          "programming",
+          "digital marketing"
+        ]
+      },
+
+      "keywords": [
+        "daily operations",
+        "execution",
+        "coordination",
+        "tracking"
+      ],
+
+      "career_path": [
+        "operations manager",
+        "business manager"
+      ]
+    },
+
+    "operations_manager": {
+      "title": "Operations Manager",
+      "aliases": ["Business Operations Manager", "Delivery Manager"],
+      "seniority": "mid",
+
+      "education": {
+        "min_level": "bachelor",
+        "preferred_fields": ["management", "business administration"]
+      },
+
+      "experience": {
+        "min_years": 3,
+        "preferred_years": 5
+      },
+
+      "skills": {
+        "critical": [
+          "operations management",
+          "process optimization",
+          "stakeholder coordination"
+        ],
+        "core": [
+          "team supervision",
+          "resource planning",
+          "kpi tracking"
+        ],
+        "tools": [
+          "excel",
+          "project management tools"
+        ],
+        "optional": [
+          "budget monitoring",
+          "risk management"
+        ],
+        "soft": [
+          "leadership",
+          "decision making",
+          "problem solving"
+        ]
+      },
+
+      "seniority_expectation": {
+        "mid":    { "min": 3, "max": 6 },
+        "senior": { "min": 7, "max": 10 }
+      },
+
+      "discriminators": {
+        "must_have_any": [
+          "operations management",
+          "process improvement",
+          "delivery"
+        ],
+        "should_not_have_primary": [
+          "cold calling",
+          "seo",
+          "programming"
+        ]
+      },
+
+      "keywords": [
+        "sla",
+        "process improvement",
+        "delivery timelines",
+        "resource planning"
+      ],
+
+      "career_path": [
+        "senior operations manager",
+        "head of operations"
+      ]
+    },
+
+    "project_manager": {
+      "title": "Project Manager",
+      "aliases": ["Program Manager", "Delivery Lead"],
+      "seniority": "mid",
+
+      "education": {
+        "min_level": "bachelor",
+        "preferred_fields": ["management", "engineering", "business"]
+      },
+
+      "experience": {
+        "min_years": 3,
+        "preferred_years": 6
+      },
+
+      "skills": {
+        "critical": [
+          "project management",
+          "planning",
+          "execution"
+        ],
+        "core": [
+          "risk management",
+          "stakeholder communication",
+          "delivery tracking"
+        ],
+        "tools": [
+          "jira",
+          "trello",
+          "ms project"
+        ],
+        "optional": [
+          "agile",
+          "scrum",
+          "pmp fundamentals"
+        ],
+        "soft": [
+          "leadership",
+          "communication",
+          "accountability"
+        ]
+      },
+
+      "seniority_expectation": {
+        "mid":    { "min": 3, "max": 6 },
+        "senior": { "min": 7, "max": 12 }
+      },
+
+      "discriminators": {
+        "must_have_any": [
+          "project management",
+          "delivery",
+          "planning"
+        ],
+        "should_not_have_primary": [
+          "sales targets",
+          "seo",
+          "content marketing"
+        ]
+      },
+
+      "keywords": [
+        "timelines",
+        "milestones",
+        "delivery",
+        "stakeholders"
+      ],
+
+      "career_path": [
+        "senior project manager",
+        "program director"
+      ]
+    },
+
+    "business_manager": {
+      "title": "Business Manager",
+      "aliases": ["Business Operations Manager", "General Manager"],
+      "seniority": "senior",
+
+      "education": {
+        "min_level": "bachelor",
+        "preferred_fields": ["management", "mba", "business administration"]
+      },
+
+      "experience": {
+        "min_years": 6,
+        "preferred_years": 10
+      },
+
+      "skills": {
+        "critical": [
+          "business strategy",
+          "operations oversight",
+          "decision making"
+        ],
+        "core": [
+          "budget oversight",
+          "performance management",
+          "stakeholder alignment"
+        ],
+        "tools": [
+          "dashboards",
+          "reporting tools"
+        ],
+        "optional": [
+          "p&l responsibility",
+          "growth strategy"
+        ],
+        "soft": [
+          "leadership",
+          "strategic thinking",
+          "accountability"
+        ]
+      },
+
+      "seniority_expectation": {
+        "senior": { "min": 6, "max": 12 },
+        "lead":   { "min": 13 }
+      },
+
+      "discriminators": {
+        "must_have_any": [
+          "strategy",
+          "operations oversight",
+          "management"
+        ],
+        "should_not_have_primary": [
+          "individual contributor",
+          "pure sales",
+          "programming"
+        ]
+      },
+
+      "keywords": [
+        "business growth",
+        "strategy",
+        "governance",
+        "performance"
+      ],
+
+      "career_path": [
+        "head of business",
+        "director",
+        "chief operating officer"
+      ]
+    }
+  }
+}

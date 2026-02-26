@@ -1,0 +1,13 @@
+python
+machine learning
+deep learning
+sql
+nlp
+data science
+tensorflow
+pytorch
+microsoft office
+time management
+communication
+problem solving
+teamwork
