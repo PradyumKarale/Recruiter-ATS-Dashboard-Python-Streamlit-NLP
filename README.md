@@ -162,7 +162,7 @@ python -m venv .venv
 ### 3️⃣ Install Dependencies
 
 ```
-pip install -r requirements.txt
+pip install -r requirements.lock.txt
 ```
 
 ### 4️⃣ Run Application
