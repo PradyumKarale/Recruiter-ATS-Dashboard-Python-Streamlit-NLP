@@ -148,8 +148,8 @@ Resume_Project/
 ### 1️⃣ Clone Repository
 
 ```
-git clone https://github.com/PradyumKarale/your-repo-name.git
-cd your-repo-name
+git clone (https://github.com/PradyumKarale/Recruiter-ATS-Dashboard-Python-Streamlit-NLP.git)
+cd Recruiter-ATS-Dashboard-Python-Streamlit-NLP
 ```
 
 ### 2️⃣ Create Virtual Environment
