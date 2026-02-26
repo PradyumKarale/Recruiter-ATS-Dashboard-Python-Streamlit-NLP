@@ -123,6 +123,7 @@ Resume_Project/
 ├── analysis/
 ├── utils/
 ├── job_database/
+├── feedback/
 │
 ├── output/
 └── debug_inference.py
